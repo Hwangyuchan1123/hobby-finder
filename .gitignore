@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# env files (키는 절대 커밋하지 않음, 예시 파일만 커밋)
+.env*
+!.env.example
+
+# vercel
+.vercel
